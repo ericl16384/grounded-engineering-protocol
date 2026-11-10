@@ -62,6 +62,37 @@ Track uncertainty and how each important requirement or claim will be checked.
 | `04_verification/v_and_v_matrix.csv` | Verification and validation activities with acceptance criteria and evidence |
 | `04_verification/assumption_register_example.csv` | Illustrative mechanical/software assumption examples |
 
+## `05_design_artifacts/` - Design models and deliverables
+
+Use this area for design artifacts that need a shared home, such as models,
+drawings, diagrams, prototypes, or specifications. Organize by artifact type,
+project component, or lifecycle as useful; avoid imposing a tool-specific
+layout on every project. Keep editable sources distinct from approved
+deliverables and derived exports. Record units, coordinate systems, versions,
+dependencies, and other context needed to interpret or reuse an artifact.
+Keep text-based sources in regular Git when practical. Git LFS rules cover
+several common large binary design and data formats; use LFS only where it
+helps and check the remote's storage and bandwidth limits.
+
+| Path | Purpose |
+|---|---|
+| `05_design_artifacts/README.md` | Artifact organization, provenance, and review guidance |
+
+## `06_analysis/` - Analysis and simulation
+
+Use this area for reproducible analyses, including calculations, simulations,
+experiments, data processing, and their supporting reports. Keep inputs,
+methods, results, and conclusions identifiable and traceable. Record
+assumptions, units, tools and versions, applicable model or data limitations,
+and acceptance criteria. Preserve scripts and text inputs as reviewable
+sources where practical; store large binary inputs or results with Git LFS
+when appropriate. An analysis is evidence only for the conditions and claims
+it actually supports.
+
+| Path | Purpose |
+|---|---|
+| `06_analysis/README.md` | Analysis organization, reproducibility, and evidence guidance |
+
 ## Information flow
 
 1. Capture possibilities in the scratchpad without implying approval.
