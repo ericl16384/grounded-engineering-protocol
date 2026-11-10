@@ -1,0 +1,37 @@
+{
+    "project_name": "Project_Name",
+    "version": "0.1.0",
+    "budgets": {
+      "mass_kg": {
+        "hard_limit": 5.0,
+        "target_with_margin": 4.0,
+        "current_allocated": 2.85,
+        "subsystems": {
+          "chassis_and_structure": 1.2,
+          "actuators": 0.9,
+          "battery_and_power": 0.5,
+          "compute_and_sensors": 0.25
+        }
+      },
+      "power_watts": {
+        "continuous_limit": 120.0,
+        "peak_limit_5s": 350.0,
+        "current_continuous_est": 85.0
+      },
+      "control_loop_latency_ms": {
+        "max_allowable_jitter": 0.5,
+        "target_loop_period": 2.0,
+        "sensor_to_actuator_budget": {
+          "sensing_readout": 0.4,
+          "state_estimation": 0.5,
+          "control_solver": 0.8,
+          "bus_transmission": 0.3
+        }
+      },
+      "financial_usd": {
+        "total_cap": 2500.0,
+        "contingency_reserve": 500.0,
+        "committed_spend": 0.0
+      }
+    }
+  }

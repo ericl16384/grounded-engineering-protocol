@@ -1,0 +1,4 @@
+ID,Subsystem,Assumption_Statement,Failure_Impact,Severity,Verification_Method,Status,Whitepaper_Section
+A-001,Actuation,"BLDC motor can sustain 4.5 Nm torque for 10s without thermal derating above 80C",Robot collapses during dynamic recovery,CRITICAL,"Benchtop dynamometer + thermal camera test",UNVERIFIED,Sec 3.2
+A-002,Comms,"CAN-FD bus at 5 Mbps can handle 1 kHz state feedback from 6 joints with < 0.2ms jitter",Control loop destabilizes at high gains,HIGH,"Loopback stress test with logic analyzer",UNVERIFIED,Sec 4.1
+A-003,State_Est,"IMU vibration from frame structural modes will not saturate accelerometer at +/- 16g",State estimator diverges on impact,HIGH,"Tap test / shaker test on prototype link",UNVERIFIED,Sec 5.1

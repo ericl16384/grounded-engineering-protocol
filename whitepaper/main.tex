@@ -1,0 +1,25 @@
+% --- Grounded Robotics Protocol (GRP) Preamble Macros ---
+\usepackage{xcolor}
+\definecolor{unverifiedRed}{RGB}{200, 40, 40}
+\definecolor{verifiedGreen}{RGB}{30, 140, 60}
+\definecolor{budgetBlue}{RGB}{30, 90, 180}
+
+% Tag an unverified assumption directly in the whitepaper text
+\newcommand{\unverified}[2]{%
+  \textcolor{unverifiedRed}{\textbf{[UNVERIFIED #1: #2]}}%
+}
+
+% Tag a verified engineering claim tied to the V&V Matrix
+\newcommand{\verified}[2]{%
+  \textcolor{verifiedGreen}{\textbf{[VERIFIED #1: #2]}}%
+}
+
+% Tag a hard system budget parameter synced with system_budgets.json
+\newcommand{\sysbudget}[2]{%
+  \textcolor{budgetBlue}{\texttt{[#1 = #2]}}%
+}
+
+% Example Usage in the LaTeX Body:
+% The control law requires a total sensor-to-actuator delay of
+% \sysbudget{latency\_total}{$\Delta t \le 2.0\text{ ms}$}, which relies on
+% \unverified{A-002}{deterministic CAN-FD bus scheduling at $1\text{ kHz}$}.

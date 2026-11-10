@@ -1,0 +1,7 @@
+I have a new idea: use AI to help organize, brainstorm, verify, and plan my next robotics research project. I want to develop a whitepaper as a living document that grows and develops as the project goes along. This central human-readable LaTeX whitepaper should be accompanied by supporting documentation (Markdown, csv, json, etc) that helps provide structure, history, and engineering context to the project.
+
+On that thought, help me write a short bit of instructions to guide Argon in helping me develop this workflow. How will information be stored and organized? I want a central living-document feel with a central document, but also intelligent ways of storing ideas. For example, we might we want to track the project scope/focus over time. The main pain point I am learning from when doing my own projects is that I fail to plan certain critical details that are make-or-break for the project success. This living whitepaper will be a tool to help ground the project (scope, implementation, communication, verification) in reality.
+
+Run with my idea, refine it, make it your own. Title it, and consider how to different information flows will be organized to allow for a rigorous and unified engineering project.
+
+Present your results as a file (Markdown or LaTeX), explaining your vision and implementation for this project framework.
