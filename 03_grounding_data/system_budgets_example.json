@@ -1,37 +1,69 @@
 {
-    "project_name": "Project_Name",
-    "version": "0.1.0",
-    "budgets": {
+  "project_name": "Illustrative benchtop fixture and companion application",
+  "version": "0.1.0",
+  "currency": "USD",
+  "notes": "Illustrative values only; not engineering recommendations or a real project baseline.",
+  "budgets": {
+    "cost": {
+      "hard_limit": 800.0,
+      "allocated": 650.0,
+      "committed": 120.0,
+      "contingency": 150.0
+    },
+    "schedule": {
+      "target_completion_date": "2027-03-31",
+      "milestones": [
+        {
+          "name": "Requirements and interface review",
+          "target_date": "2026-12-15"
+        },
+        {
+          "name": "Integrated prototype evaluation",
+          "target_date": "2027-02-15"
+        }
+      ]
+    },
+    "physical": {
       "mass_kg": {
-        "hard_limit": 5.0,
-        "target_with_margin": 4.0,
-        "current_allocated": 2.85,
-        "subsystems": {
-          "chassis_and_structure": 1.2,
-          "actuators": 0.9,
-          "battery_and_power": 0.5,
-          "compute_and_sensors": 0.25
-        }
+        "hard_limit": 8.0,
+        "target": 6.5,
+        "current_estimate": 5.2
       },
-      "power_watts": {
-        "continuous_limit": 120.0,
-        "peak_limit_5s": 350.0,
-        "current_continuous_est": 85.0
-      },
-      "control_loop_latency_ms": {
-        "max_allowable_jitter": 0.5,
-        "target_loop_period": 2.0,
-        "sensor_to_actuator_budget": {
-          "sensing_readout": 0.4,
-          "state_estimation": 0.5,
-          "control_solver": 0.8,
-          "bus_transmission": 0.3
-        }
-      },
-      "financial_usd": {
-        "total_cap": 2500.0,
-        "contingency_reserve": 500.0,
-        "committed_spend": 0.0
+      "envelope_mm": {
+        "x": 400,
+        "y": 300,
+        "z": 250
       }
+    },
+    "performance": {
+      "measurement_repeatability_mm": {
+        "target": 0.2,
+        "current_estimate": null
+      }
+    },
+    "power_watts": {
+      "continuous_limit": 60.0,
+      "peak_limit": 100.0,
+      "current_estimate": 35.0
+    },
+    "software": {
+      "platforms": [
+        "Windows 11"
+      ],
+      "memory_mb": {
+        "limit": 1024,
+        "current_estimate": 240
+      },
+      "latency_ms": {
+        "limit": 100,
+        "current_estimate": 75
+      },
+      "availability_percent": {
+        "target": 99.0
+      }
+    },
+    "other": {
+      "assumption": "Targets and estimates require project-specific acceptance criteria and supporting evidence."
     }
   }
+}

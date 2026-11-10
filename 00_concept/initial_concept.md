@@ -1,7 +1,22 @@
-I have a new idea: use AI to help organize, brainstorm, verify, and plan my next robotics research project. I want to develop a whitepaper as a living document that grows and develops as the project goes along. This central human-readable LaTeX whitepaper should be accompanied by supporting documentation (Markdown, csv, json, etc) that helps provide structure, history, and engineering context to the project.
+# A Reusable, Grounded Engineering Project Framework
 
-On that thought, help me write a short bit of instructions to guide Argon in helping me develop this workflow. How will information be stored and organized? I want a central living-document feel with a central document, but also intelligent ways of storing ideas. For example, we might we want to track the project scope/focus over time. The main pain point I am learning from when doing my own projects is that I fail to plan certain critical details that are make-or-break for the project success. This living whitepaper will be a tool to help ground the project (scope, implementation, communication, verification) in reality.
+This repository develops a repeatable way to use an AI agent as an engineering
+partner across mechanical engineering, software development, and projects that
+combine the two.
 
-Run with my idea, refine it, make it your own. Title it, and consider how to different information flows will be organized to allow for a rigorous and unified engineering project.
+The framework centers on a living technical document, supported by small,
+purpose-specific records for project scope, decisions, constraints,
+interfaces, assumptions, and verification evidence. Ideas can be explored
+freely, but they are not silently treated as decisions or facts. Before a
+proposal becomes part of the baseline, the workflow makes its dependencies,
+risks, and means of verification explicit.
 
-Present your results as a file (Markdown or LaTeX), explaining your vision and implementation for this project framework.
+The framework should adapt to each project's discipline, scale, lifecycle, and
+deliverables. It should not presume robotics, research publication, LaTeX, a
+physical prototype, or any particular toolchain. The current repository uses a
+LaTeX whitepaper as an example of a central synthesis; another project may
+choose a different readable document format.
+
+The aim is not bureaucracy or perfect prediction. It is to make important
+unknowns visible early, preserve why choices were made, and connect claims to
+evidence so that people and agents can collaborate without losing context.

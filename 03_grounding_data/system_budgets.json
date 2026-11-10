@@ -1,0 +1,51 @@
+{
+  "project_name": "Project name",
+  "version": "0.1.0",
+  "currency": "USD",
+  "notes": "Replace this starter schema with project-specific limits. Use explicit units and distinguish targets, hard limits, estimates, and measured values.",
+  "budgets": {
+    "cost": {
+      "hard_limit": null,
+      "allocated": null,
+      "committed": null,
+      "contingency": null
+    },
+    "schedule": {
+      "target_completion_date": null,
+      "milestones": []
+    },
+    "physical": {
+      "mass_kg": {
+        "hard_limit": null,
+        "target": null,
+        "current_estimate": null
+      },
+      "envelope_mm": {
+        "x": null,
+        "y": null,
+        "z": null
+      }
+    },
+    "performance": {},
+    "power_watts": {
+      "continuous_limit": null,
+      "peak_limit": null,
+      "current_estimate": null
+    },
+    "software": {
+      "platforms": [],
+      "memory_mb": {
+        "limit": null,
+        "current_estimate": null
+      },
+      "latency_ms": {
+        "limit": null,
+        "current_estimate": null
+      },
+      "availability_percent": {
+        "target": null
+      }
+    },
+    "other": {}
+  }
+}
