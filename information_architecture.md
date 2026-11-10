@@ -5,7 +5,7 @@ software development, and integrated engineering projects. Paths are relative
 to the repository root. Keep the structure lightweight: add discipline-specific
 records only when the project needs them.
 
-## `00_concept/` — Project framing
+## `00_concept/` - Project framing
 
 Capture the idea, user or stakeholder need, and the reusable method before
 committing to a specific solution.
@@ -15,7 +15,7 @@ committing to a specific solution.
 | `00_concept/initial_concept.md` | Purpose and principles of the reusable project framework |
 | `00_concept/engineering_project_framework.md` | How the AI-assisted workflow organizes and promotes information |
 
-## `01_whitepaper/` — Current technical synthesis
+## `01_whitepaper/` - Current technical synthesis
 
 The living whitepaper is the readable overview of the current baseline: what
 the project is, what is being built, why choices were made, what supports the
@@ -28,7 +28,7 @@ report, or research paper depending on the project.
 | `01_whitepaper/sections/` | Optional modular sections, created when useful |
 | `01_whitepaper/references.bib` | Literature, standards, specifications, and other citations |
 
-## `02_context_and_history/` — Intent and decisions
+## `02_context_and_history/` - Intent and decisions
 
 Keep evolving intent and rationale visible without confusing brainstorming
 with the current baseline.
@@ -40,7 +40,7 @@ with the current baseline.
 | `02_context_and_history/scratchpad.md` | Unfiltered ideas and questions not yet adopted |
 | `02_context_and_history/scope_ledger_example.md` | Example scope ledger |
 
-## `03_grounding_data/` — Constraints and interfaces
+## `03_grounding_data/` - Constraints and interfaces
 
 Store structured values that need consistent review or comparison. Use only
 the categories relevant to the project and document units and definitions.
@@ -52,7 +52,7 @@ the categories relevant to the project and document units and definitions.
 | `03_grounding_data/bom_tracker.csv` | Physical parts, software components, services, sourcing, ownership, and alternatives as applicable |
 | `03_grounding_data/system_budgets_example.json` | Illustrative, domain-neutral budget example |
 
-## `04_verification/` — Risk and evidence
+## `04_verification/` - Risk and evidence
 
 Track uncertainty and how each important requirement or claim will be checked.
 

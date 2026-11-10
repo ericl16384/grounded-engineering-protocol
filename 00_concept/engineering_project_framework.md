@@ -19,7 +19,7 @@ assuming every project is a robot or a research paper.
 The project has one central human-readable synthesis: the living whitepaper
 (`01_whitepaper/main.tex` in this starter repository). It communicates the
 current baseline, but it does not replace detailed records or test evidence.
-Think of it as an engineering brief with traceable links—not as a magical
+Think of it as an engineering brief with traceable links, not as a magical
 compiled truth. Other projects may choose Markdown or another format for this
 central document.
 
@@ -87,7 +87,7 @@ to accept or reject it.
 ### 5. Verify
 
 Give important assumptions stable IDs. For each high-impact assumption or
-requirement, define a proportionate check—such as calculation, code test,
+requirement, define a proportionate check, such as calculation, code test,
 prototype, inspection, simulation, source review, or user evaluation. Record
 the method, acceptance criteria, evidence location, result, conditions, and
 limitations. Keep failures and inconclusive results visible.

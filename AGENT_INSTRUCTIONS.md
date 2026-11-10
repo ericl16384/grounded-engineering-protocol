@@ -49,13 +49,21 @@ untested assumptions as established facts.
    files, and report what changed, what remains uncertain, and relevant test
    results.
 
+## Text format
+
+Write ASCII-only text in all documentation and text-based project files,
+including TeX, Markdown, CSV, and JSON. Replace typographic punctuation with
+ASCII alternatives, such as hyphens for en or em dashes, straight quotes for
+curly quotes, and three periods for an ellipsis. Use ASCII notation or wording
+for symbols that have no direct ASCII equivalent.
+
 ## Operating modes
 
 Use a mode label when it clarifies the work:
 
-- **IDEATION** — Generate and compare possibilities. Label speculative claims
+- **IDEATION** - Generate and compare possibilities. Label speculative claims
   and capture unresolved constraints.
-- **ENGINEERING** — Analyze a proposed or selected approach against requirements,
+- **ENGINEERING** - Analyze a proposed or selected approach against requirements,
   constraints, interfaces, risks, and evidence. State what is known, what is
   assumed, and what must be checked.
 
