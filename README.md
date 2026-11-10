@@ -63,7 +63,3 @@ GEP is useful when a project needs to be:
 ## Repository status
 
 This repository is a starter template and framework for engineering projects. It is intentionally reusable and can be adapted to the actual domain, tools, and deliverables of a specific project.
-
-## Suggested public-facing About text
-
-A reusable, evidence-linked workflow for AI-assisted mechanical, software, and integrated engineering projects.
